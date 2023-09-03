@@ -32,7 +32,7 @@ class OrderDispatched extends RowAction
             foreach ($order as $item) {
                 $item->price = $request->price[$num] ?? 0;
                 //new code for store price
-                $total=$total+$item->price;
+                $total=$total+$item->price*$item->quantity;
             }
             $allorder->amount = $total;
             //new logic for request total

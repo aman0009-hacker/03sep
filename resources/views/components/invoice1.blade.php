@@ -148,7 +148,7 @@
           <th style="width: 45%">Description of Goods</th>
           <th style="width: 10%">HSN/SAC</th>
           <th style="width: 10%">Quantity</th>
-          <th style="width: 10%">Rate</th>
+          <th style="width: 10%">Rate Per Ton</th>
           <th style="width: 10%">Per</th>
           <th style="width: 10%">Amount</th>
         </tr>
@@ -285,11 +285,11 @@
       </table>
       <table style="width: 100%;margin-top: 14px;">
         <tr>
-          <td colspan="2" style="border: none;padding-bottom: 23px;">
+          {{-- <td colspan="2" style="border: none;padding-bottom: 23px;">
             <u><b>Declaration:-</b></u>&nbsp; We declare that this invoice shows 
             the actual price of the goods described and that all particulars are 
             true and correct.
-          </td>
+          </td> --}}
         </tr>
         <tr>
           <td style="border: none">

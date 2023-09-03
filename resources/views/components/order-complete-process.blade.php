@@ -387,7 +387,7 @@
                                     <span class="field__label" for="lastname">GST IN/UIN<span style="color:red">★</span>
                                         (15 digits)</span>
                                     <input class="field__input" name="shipping_gst_number"
-                                        value="{{ $address->shipping_gst_number ?? '' }}" type="text"
+                                        value="{{ $gstfile ?? '' }}" type="text"
                                         id="shipping_gst_number" value="" />
                                 </label>
                                 <label class="field">
@@ -465,7 +465,7 @@
                                         <span class="field__label" for="lastname">GST IN/UIN<span
                                                 style="color:red">★</span> (15 digits)</span>
                                         <input class="field__input" name="billing_gst_number" type="text"
-                                            id="billing_gst_number" value="{{ $address->billing_gst_number ?? '' }}" />
+                                            id="billing_gst_number" value="{{ $gstfile ?? '' }}" />
                                     </label>
                                     <label class="field">
                                         <span class="field__label" for="address">GST state code</span>
